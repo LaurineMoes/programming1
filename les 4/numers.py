@@ -1,10 +1,14 @@
 cijferICOR = 8
-cijferPROG = 5
-cijferCSN = 6
-gemiddelde = cijferCSN + cijferICOR + cijferPROG / 3
+cijferPROG = 6
+cijferCSN = 7
+gemiddelde = (cijferCSN + cijferICOR + cijferPROG) / 3
 cijfers = cijferICOR + cijferCSN+ cijferPROG
-som = sum(cijfers)
-ant = som / (len(cijfers))
-beloning = som * 30
-print('beloning' + str(beloning))
+
+beloning = cijfers * 30
+
+print(beloning)
+
+print(gemiddelde)
+
+print ('Mijn cijfers ' + str(gemiddelde) + ' leveren een beloning van €' + str(beloning) + ' op!')
 
