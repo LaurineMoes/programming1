@@ -10,5 +10,5 @@ print(beloning)
 
 print(gemiddelde)
 
-print ('Mijn cijfers ' + str(gemiddelde) + ' leveren een beloning van €' + str(beloning) + ' op!')
+print('Mijn cijfers ' + str(gemiddelde) + ' leveren een beloning van €' + str(beloning) + ' op!')
 
