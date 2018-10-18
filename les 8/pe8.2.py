@@ -1,5 +1,3 @@
-
-
 def nieuw(oud):
     nieuw = []
     if len(oud) >= 4:
