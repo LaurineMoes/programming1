@@ -1,11 +1,12 @@
 a = 0
 b = 0
 while True:
-    c = input(int("geef een getal:")
-    b += (c)
+    getal = int(input("geef een getal:"))
+    b += getal
     a += 1
-        if c == 0:
-            print("Er zijn {} getallen ingevoerd, de som is: {}".format(a, b))
+    if getal == 0:
+        print("Er zijn {} getallen ingevoerd, de som is: {}".format(a, b))
+        break
 
 
 
